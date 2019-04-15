@@ -159,7 +159,7 @@ body {
         }
 
         .img-wrap {
-
+            margin-top: 20px;
 
             @media @desktop {
                 width: 49.5%;
@@ -180,6 +180,7 @@ body {
         } // end of img wrap
 
         .text-wrap {
+            margin-bottom: 20px;
 
             @media @desktop {
                 width: 49.5%;
@@ -217,11 +218,15 @@ body {
             }
 
             img {
-                width: 80%;
-                position: relative;
-                border-radius: 10px;
-                left: 70px;
-                // .blur();
+                display: none;
+
+                @media @desktop {
+                    display: block;
+                    width: 80%;
+                    position: relative;
+                    border-radius: 10px;
+                    left: 70px;
+                }
             }
 
         }
