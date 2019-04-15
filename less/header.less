@@ -1,8 +1,16 @@
 header {
-    background-color: @fadedJade;
+    background-color: @main;
     display: flex;
     justify-content: space-between;
     height: 75px;
+
+    button {
+        margin-top: 10px;
+        margin-left: 15px;
+        font-size: 1.2rem;
+        height: 50px;
+        border-radius: 17px;
+    }
 
     h1 {
         font-size: 1.6rem;
@@ -15,8 +23,33 @@ header {
         .padding10();
 
         &:hover {
-            color: black;
             cursor: pointer;
         }
     }
+} // end of header
+
+// adding due to menu being with header, but didnt want content to flow with
+.menu-content {
+
+
+
+    .wrap {
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        justify-content: center;
+        align-items: center;
+
+
+        a {
+            text-decoration: none;
+            font-size: 1.4rem;
+            .padding10();
+            color: black;
+        }
+    }
+}
+
+.hide {
+    display: none;
 }
