@@ -1,6 +1,7 @@
 body {
     font-size: 62.5%;
     box-sizing: border-box;
+    background-color: @main;
     
 }
 
@@ -17,6 +18,9 @@ body {
     margin: 20px 0 20px 0;
 
     .cta{
+        // margin: 5px;
+        border-radius: 10px;
+        background-color: white;
 
         .bold{
             font-weight: 900;
@@ -38,6 +42,7 @@ body {
             width: 95%;
             margin: 10px;
             border-radius: 10px;
+            .blur();
         }
     
         p {
@@ -48,13 +53,27 @@ body {
         }
     } // end of cta
 
-    .cont1 {
+    .space {
+        height: 200px;
+        width: 100%;
+        background: @main;
+        border-radius: 0;
+        font-size: 1.4rem;
+        text-align: center;
+        .padding10();
+        .center();
+    }
 
+    .cont1 {
+        margin-top: 20px;
+        background-color: white;
+        .blur();
 
         img {
             width: 95%;
             margin: 10px;
-            border-radius: 10px;
+            // border-radius: 10px;
+            .blur();
         }
 
         h3 {

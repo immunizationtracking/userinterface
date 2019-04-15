@@ -129,6 +129,7 @@ table {
 body {
   font-size: 62.5%;
   box-sizing: border-box;
+  background-color: #417062;
 }
 .join {
   font-size: 1.4rem;
@@ -140,6 +141,10 @@ body {
   display: flex;
   flex-direction: column;
   margin: 20px 0 20px 0;
+}
+.main .cta {
+  border-radius: 10px;
+  background-color: white;
 }
 .main .cta .bold {
   font-weight: 900;
@@ -158,6 +163,7 @@ body {
   width: 95%;
   margin: 10px;
   border-radius: 10px;
+  box-shadow: 5px 5px 30px gray;
 }
 .main .cta p {
   font-size: 1.6rem;
@@ -165,10 +171,29 @@ body {
   margin-top: 10px;
   padding: 10px;
 }
+.main .space {
+  height: 200px;
+  width: 100%;
+  background: #417062;
+  border-radius: 0;
+  font-size: 1.4rem;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .cont1 {
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 30px gray;
+}
 .main .cont1 img {
   width: 95%;
   margin: 10px;
   border-radius: 10px;
+  box-shadow: 5px 5px 30px gray;
 }
 .main .cont1 h3 {
   font-size: 1.6rem;
@@ -188,7 +213,7 @@ header {
   height: 75px;
 }
 header button {
-  margin-top: 10px;
+  margin-top: 20px;
   margin-left: 15px;
   font-size: 1.2rem;
   height: 50px;
@@ -201,10 +226,12 @@ header button a {
 header h1 {
   font-size: 1.6rem;
   padding: 25px;
+  margin-top: 10px;
 }
 header .menu {
   color: black;
   height: 50px;
+  margin-top: 10px;
   padding: 10px;
 }
 header .menu:hover {
