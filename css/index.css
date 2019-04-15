@@ -141,23 +141,45 @@ body {
   flex-direction: column;
   margin: 20px 0 20px 0;
 }
-.main .bold {
+.main .cta .bold {
   font-weight: 900;
 }
-.main h1 {
+.main .cta h1 {
   font-size: 3rem;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
-.main img {
+.main .cta .marge {
+  margin-bottom: 20px;
+  position: relative;
+  left: 5px;
+}
+.main .cta img {
   width: 95%;
   margin: 10px;
   border-radius: 10px;
 }
-.main p {
+.main .cta p {
   font-size: 1.6rem;
   text-align: center;
   margin-top: 10px;
+  padding: 10px;
+}
+.main .cont1 img {
+  width: 95%;
+  margin: 10px;
+  border-radius: 10px;
+}
+.main .cont1 h3 {
+  font-size: 1.6rem;
+  text-align: right;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.main .cont1 p {
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 10px;
 }
 header {
   background-color: #417062;
