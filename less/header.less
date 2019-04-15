@@ -1,0 +1,70 @@
+header {
+    background-color: @main;
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+
+    button {
+        margin-top: 20px;
+        margin-left: 15px;
+        font-size: 1.2rem;
+        height: 50px;
+        border-radius: 17px;
+        // .blur();
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+
+        @media @desktop{
+            display: none;
+        }
+    }
+
+    h1 {
+        font-size: 1.6rem;
+        padding: 25px;
+        margin-top: 10px;
+    }
+
+    .menu {
+        color: black;
+        height: 50px;
+        margin-top: 10px;
+        .padding10();
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+} // end of header
+
+// adding due to menu being with header, but didnt want content to flow with
+.menu-content {
+
+
+
+    .wrap {
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        background-color: rgba(65, 112, 98, 0.7);
+        border-radius: 10px;
+
+
+        a {
+            text-decoration: none;
+            font-size: 1.4rem;
+            .padding10();
+            color: black;
+        }
+    }
+}
+
+.hide {
+    display: none;
+}

@@ -1,0 +1,278 @@
+// general body styles
+
+body {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    background-color: @main;
+    
+}
+
+// styles start
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 20px 0;
+
+
+    .cta{
+        border-radius: 10px;
+        background-color: white;
+        height: 100vh;
+        .blur();
+
+        .text-wrap {
+
+            @media @desktop {
+                display: flex;
+                justify-content: space-evenly;
+                margin-top: 60px;
+                background-color: rgba(65, 112, 98, 0.7);
+                width: 79%;
+                border-radius: 10px;
+                position: relative;
+                left: 150px;
+                .blur();
+
+            }
+            .bold{
+                font-weight: 900;
+            }
+        
+            h1{
+                font-size: 3rem;
+                text-align: center;
+                margin-bottom: 5px;
+                margin-top: 15px;
+            }
+        
+            .marge {
+                margin-bottom: 20px;
+                position: relative;
+                left: 5px;
+            }
+        } // end of text-wrap
+
+        .head-wrap {
+
+            @media @desktop {
+                display: flex;
+                align-items: center;
+                
+            }
+
+            .img-wrap {
+                
+                @media @desktop{
+                    width: 49.5%;
+                    align-self: center;
+                }
+
+                img {
+                    width: 95%;
+                    margin: 10px;
+                    border-radius: 10px;
+                    .blur();
+
+                    @media @desktop {
+                        width: 100%;
+                        position: relative;
+                        top: 40px;
+                    }
+                    
+                }
+            } // end of img wrap
+
+            .p-wrap {
+                
+
+                @media @desktop {
+                    width: 49.5%;
+                    margin: 10px;
+                    display: flex;
+                    flex-direction: column;
+                    
+                }
+
+                p {
+                    font-size: 1.6rem;
+                    text-align: center;
+                    margin-top: 10px;
+                    .padding10();
+                    position: relative;
+                    top: 30px;
+
+                    @media @desktop {
+                        top: 0;
+                        padding: 20px;
+                    }
+                    
+                }
+
+                button {
+                    background-color: @main;
+                    font-size: 1.4rem;
+                    height: 50px;
+                    border-radius: 17px;
+                    width: 100px;
+                    align-self: center;
+                    margin-top: 30px;
+                    
+                    display: none;
+
+
+                    @media @desktop {
+                        display: block;
+                        .blur();
+
+                        &:hover{
+                            // background-color: ;
+                            // color: @main;
+                        }
+                    }
+
+                    a{
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
+            } // end of p wrap
+        
+        } // end of head-wrap
+    
+    } // end of cta
+
+    .space {
+        height: 400px;
+        width: 100%;
+        background: @main;
+        border-radius: 0;
+        font-size: 1.4rem;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        .review {
+            background-color: rgba(255, 255, 255, 0.815);
+            width: 500px;
+            display: flex;
+            justify-content: space-evenly;
+            border-radius: 40px;
+            margin: 20px;
+            .blur();
+            
+            img {
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                align-self: center;
+                margin: 5px;
+                .blur();
+            }
+
+            p {
+                font-size: 1.2rem;
+                align-self: center;
+                .padding10();
+            }
+        } // end of review
+
+        .cust1 {
+            align-self: flex-end;
+        }
+
+        .cust2 {
+            margin-bottom: 20px;
+            align-self: flex-start;
+        }
+
+    } // end of space
+
+    .cont1 {
+        margin-top: 20px;
+        background-color: white;
+        .blur();
+
+        @media @desktop {
+            display: flex;
+            justify-content: space-between;
+            height: 100vh;
+            align-items: center;
+        }
+
+        .img-wrap {
+            margin-top: 20px;
+
+            @media @desktop {
+                width: 49.5%;
+                order: 1;
+            }
+
+            img {
+                width: 95%;
+                margin: 10px;
+                // border-radius: 10px;
+                .blur();
+
+                @media @desktop {
+                    margin: 20px;
+                }
+            }
+
+        } // end of img wrap
+
+        .text-wrap {
+            margin-bottom: 20px;
+
+            @media @desktop {
+                width: 49.5%;
+                order: -1;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: space-between;
+            }
+
+            h3 {
+                font-size: 1.6rem;
+                text-align: center;
+                margin-bottom: 10px;
+                .padding10();
+
+                @media @desktop {
+                    text-align: center;
+                    font-size: 2rem;
+                    position: relative;
+                    bottom: 10px;
+                }
+            }
+    
+            p {
+                font-size: 1.3rem;
+                text-align: center;
+                .padding10();
+
+                @media @desktop {
+                    position: relative;
+                    bottom: 15px;
+                }
+            }
+
+            img {
+                display: none;
+
+                @media @desktop {
+                    display: block;
+                    width: 80%;
+                    position: relative;
+                    border-radius: 10px;
+                    left: 70px;
+                }
+            }
+
+        }
+
+    } // end of cont1
+
+} // end of main
