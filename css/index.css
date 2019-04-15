@@ -140,6 +140,7 @@ body {
   border-radius: 10px;
   background-color: white;
   height: 100vh;
+  box-shadow: 5px 5px 30px gray;
 }
 @media (min-width: 1000px) {
   .main .cta .text-wrap {
@@ -148,9 +149,9 @@ body {
     margin-top: 60px;
     background-color: rgba(65, 112, 98, 0.7);
     width: 79%;
+    border-radius: 10px;
     position: relative;
     left: 150px;
-    border-radius: 10px;
     box-shadow: 5px 5px 30px gray;
   }
 }
@@ -228,6 +229,7 @@ body {
 @media (min-width: 1000px) {
   .main .cta .head-wrap .p-wrap button {
     display: block;
+    box-shadow: 5px 5px 30px gray;
   }
 }
 .main .cta .head-wrap .p-wrap button a {
@@ -249,7 +251,6 @@ body {
 .main .cont1 {
   margin-top: 20px;
   background-color: white;
-  border-radius: 10px;
   box-shadow: 5px 5px 30px gray;
 }
 @media (min-width: 1000px) {
@@ -272,7 +273,6 @@ body {
 .main .cont1 .img-wrap img {
   width: 95%;
   margin: 10px;
-  border-radius: 10px;
   box-shadow: 5px 5px 30px gray;
 }
 @media (min-width: 1000px) {
