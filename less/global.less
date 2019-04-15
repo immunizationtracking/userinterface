@@ -154,6 +154,8 @@ body {
         @media @desktop {
             display: flex;
             justify-content: space-between;
+            height: 100vh;
+            align-items: center;
         }
 
         .img-wrap {
@@ -198,6 +200,8 @@ body {
                 @media @desktop {
                     text-align: center;
                     font-size: 2rem;
+                    position: relative;
+                    bottom: 10px;
                 }
             }
     
@@ -205,7 +209,21 @@ body {
                 font-size: 1.3rem;
                 text-align: center;
                 .padding10();
+
+                @media @desktop {
+                    position: relative;
+                    bottom: 15px;
+                }
             }
+
+            img {
+                width: 80%;
+                position: relative;
+                border-radius: 10px;
+                left: 70px;
+                // .blur();
+            }
+
         }
 
     } // end of cont1

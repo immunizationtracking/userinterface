@@ -256,6 +256,8 @@ body {
   .main .cont1 {
     display: flex;
     justify-content: space-between;
+    height: 100vh;
+    align-items: center;
   }
 }
 @media (min-width: 1000px) {
@@ -295,12 +297,26 @@ body {
   .main .cont1 .text-wrap h3 {
     text-align: center;
     font-size: 2rem;
+    position: relative;
+    bottom: 10px;
   }
 }
 .main .cont1 .text-wrap p {
   font-size: 1.3rem;
   text-align: center;
   padding: 10px;
+}
+@media (min-width: 1000px) {
+  .main .cont1 .text-wrap p {
+    position: relative;
+    bottom: 15px;
+  }
+}
+.main .cont1 .text-wrap img {
+  width: 80%;
+  position: relative;
+  border-radius: 10px;
+  left: 70px;
 }
 header {
   background-color: #417062;
