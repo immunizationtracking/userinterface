@@ -131,12 +131,6 @@ body {
   box-sizing: border-box;
   background-color: #417062;
 }
-.join {
-  font-size: 1.4rem;
-  height: 50px;
-  border-radius: 17px;
-  width: 100px;
-}
 .main {
   display: flex;
   flex-direction: column;
@@ -145,31 +139,100 @@ body {
 .main .cta {
   border-radius: 10px;
   background-color: white;
+  height: 100vh;
 }
-.main .cta .bold {
+@media (min-width: 1000px) {
+  .main .cta .text-wrap {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    background-color: rgba(65, 112, 98, 0.7);
+    width: 79%;
+    position: relative;
+    left: 150px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px gray;
+  }
+}
+.main .cta .text-wrap .bold {
   font-weight: 900;
 }
-.main .cta h1 {
+.main .cta .text-wrap h1 {
   font-size: 3rem;
   text-align: center;
   margin-bottom: 5px;
+  margin-top: 15px;
 }
-.main .cta .marge {
+.main .cta .text-wrap .marge {
   margin-bottom: 20px;
   position: relative;
   left: 5px;
 }
-.main .cta img {
+@media (min-width: 1000px) {
+  .main .cta .head-wrap {
+    display: flex;
+    align-items: center;
+  }
+}
+@media (min-width: 1000px) {
+  .main .cta .head-wrap .img-wrap {
+    width: 49.5%;
+    align-self: center;
+  }
+}
+.main .cta .head-wrap .img-wrap img {
   width: 95%;
   margin: 10px;
   border-radius: 10px;
   box-shadow: 5px 5px 30px gray;
 }
-.main .cta p {
+@media (min-width: 1000px) {
+  .main .cta .head-wrap .img-wrap img {
+    width: 100%;
+    position: relative;
+    top: 40px;
+  }
+}
+@media (min-width: 1000px) {
+  .main .cta .head-wrap .p-wrap {
+    width: 49.5%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+.main .cta .head-wrap .p-wrap p {
   font-size: 1.6rem;
   text-align: center;
   margin-top: 10px;
   padding: 10px;
+  position: relative;
+  top: 30px;
+}
+@media (min-width: 1000px) {
+  .main .cta .head-wrap .p-wrap p {
+    top: 0;
+    padding: 20px;
+  }
+}
+.main .cta .head-wrap .p-wrap button {
+  background-color: #417062;
+  font-size: 1.4rem;
+  height: 50px;
+  border-radius: 17px;
+  width: 100px;
+  align-self: center;
+  margin-top: 30px;
+  display: none;
+}
+@media (min-width: 1000px) {
+  .main .cta .head-wrap .p-wrap button {
+    display: block;
+  }
+}
+.main .cta .head-wrap .p-wrap button a {
+  text-decoration: none;
+  color: black;
 }
 .main .space {
   height: 200px;
@@ -189,19 +252,52 @@ body {
   border-radius: 10px;
   box-shadow: 5px 5px 30px gray;
 }
-.main .cont1 img {
+@media (min-width: 1000px) {
+  .main .cont1 {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media (min-width: 1000px) {
+  .main .cont1 .img-wrap {
+    width: 49.5%;
+    order: 1;
+  }
+}
+.main .cont1 .img-wrap img {
   width: 95%;
   margin: 10px;
   border-radius: 10px;
   box-shadow: 5px 5px 30px gray;
 }
-.main .cont1 h3 {
+@media (min-width: 1000px) {
+  .main .cont1 .img-wrap img {
+    margin: 20px;
+  }
+}
+@media (min-width: 1000px) {
+  .main .cont1 .text-wrap {
+    width: 49.5%;
+    order: -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+  }
+}
+.main .cont1 .text-wrap h3 {
   font-size: 1.6rem;
-  text-align: right;
+  text-align: center;
   margin-bottom: 10px;
   padding: 10px;
 }
-.main .cont1 p {
+@media (min-width: 1000px) {
+  .main .cont1 .text-wrap h3 {
+    text-align: center;
+    font-size: 2rem;
+  }
+}
+.main .cont1 .text-wrap p {
   font-size: 1.3rem;
   text-align: center;
   padding: 10px;
@@ -223,6 +319,11 @@ header button a {
   text-decoration: none;
   color: black;
 }
+@media (min-width: 1000px) {
+  header button {
+    display: none;
+  }
+}
 header h1 {
   font-size: 1.6rem;
   padding: 25px;
@@ -243,6 +344,9 @@ header .menu:hover {
   width: 150px;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  background-color: rgba(65, 112, 98, 0.7);
+  border-radius: 10px;
 }
 .menu-content .wrap a {
   text-decoration: none;

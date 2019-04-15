@@ -1,3 +1,5 @@
+// general body styles
+
 body {
     font-size: 62.5%;
     box-sizing: border-box;
@@ -5,52 +7,132 @@ body {
     
 }
 
-.join {
-    font-size: 1.4rem;
-    height: 50px;
-    border-radius: 17px;
-    width: 100px;
-}
+// styles start
 
 .main {
     display: flex;
     flex-direction: column;
     margin: 20px 0 20px 0;
 
+
     .cta{
-        // margin: 5px;
         border-radius: 10px;
         background-color: white;
+        height: 100vh;
 
-        .bold{
-            font-weight: 900;
-        }
+        .text-wrap {
+
+            @media @desktop {
+                display: flex;
+                justify-content: space-evenly;
+                margin-top: 60px;
+                background-color: rgba(65, 112, 98, 0.7);
+                width: 79%;
+                border-radius: 10px;
+                position: relative;
+                left: 150px;
+                .blur();
+
+            }
+            .bold{
+                font-weight: 900;
+            }
+        
+            h1{
+                font-size: 3rem;
+                text-align: center;
+                margin-bottom: 5px;
+                margin-top: 15px;
+            }
+        
+            .marge {
+                margin-bottom: 20px;
+                position: relative;
+                left: 5px;
+            }
+        } // end of text-wrap
+
+        .head-wrap {
+
+            @media @desktop {
+                display: flex;
+                align-items: center;
+                
+            }
+
+            .img-wrap {
+                
+                @media @desktop{
+                    width: 49.5%;
+                    align-self: center;
+                }
+
+                img {
+                    width: 95%;
+                    margin: 10px;
+                    border-radius: 10px;
+                    .blur();
+
+                    @media @desktop {
+                        width: 100%;
+                        position: relative;
+                        top: 40px;
+                    }
+                    
+                }
+            } // end of img wrap
+
+            .p-wrap {
+                
+
+                @media @desktop {
+                    width: 49.5%;
+                    margin: 10px;
+                    display: flex;
+                    flex-direction: column;
+                    
+                }
+
+                p {
+                    font-size: 1.6rem;
+                    text-align: center;
+                    margin-top: 10px;
+                    .padding10();
+                    position: relative;
+                    top: 30px;
+
+                    @media @desktop {
+                        top: 0;
+                        padding: 20px;
+                    }
+                    
+                }
+
+                button {
+                    background-color: @main;
+                    font-size: 1.4rem;
+                    height: 50px;
+                    border-radius: 17px;
+                    width: 100px;
+                    align-self: center;
+                    margin-top: 30px;
+                    
+                    display: none;
+
+
+                    @media @desktop {
+                        display: block;
+                    }
+
+                    a{
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
+            } // end of p wrap
+        
+        } // end of head-wrap
     
-        h1{
-            font-size: 3rem;
-            text-align: center;
-            margin-bottom: 5px;
-        }
-    
-        .marge {
-            margin-bottom: 20px;
-            position: relative;
-            left: 5px;
-        }
-    
-        img {
-            width: 95%;
-            margin: 10px;
-            border-radius: 10px;
-            .blur();
-        }
-    
-        p {
-            font-size: 1.6rem;
-            text-align: center;
-            margin-top: 10px;
-            .padding10();
-        }
     } // end of cta
 
     .space {
@@ -62,32 +144,70 @@ body {
         text-align: center;
         .padding10();
         .center();
-    }
+    } // end of space
 
     .cont1 {
         margin-top: 20px;
         background-color: white;
         .blur();
 
-        img {
-            width: 95%;
-            margin: 10px;
-            // border-radius: 10px;
-            .blur();
+        @media @desktop {
+            display: flex;
+            justify-content: space-between;
         }
 
-        h3 {
-            font-size: 1.6rem;
-            text-align: right;
-            margin-bottom: 10px;
-            .padding10();
+        .img-wrap {
+
+
+            @media @desktop {
+                width: 49.5%;
+                order: 1;
+            }
+
+            img {
+                width: 95%;
+                margin: 10px;
+                // border-radius: 10px;
+                .blur();
+
+                @media @desktop {
+                    margin: 20px;
+                }
+            }
+
+        } // end of img wrap
+
+        .text-wrap {
+
+            @media @desktop {
+                width: 49.5%;
+                order: -1;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: space-between;
+            }
+
+            h3 {
+                font-size: 1.6rem;
+                text-align: center;
+                margin-bottom: 10px;
+                .padding10();
+
+                @media @desktop {
+                    text-align: center;
+                    font-size: 2rem;
+                }
+            }
+    
+            p {
+                font-size: 1.3rem;
+                text-align: center;
+                .padding10();
+            }
         }
 
-        p {
-            font-size: 1.3rem;
-            text-align: center;
-            .padding10();
-        }
-    }
+    } // end of cont1
 
 } // end of main
