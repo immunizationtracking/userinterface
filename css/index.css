@@ -237,16 +237,43 @@ body {
   color: black;
 }
 .main .space {
-  height: 200px;
+  height: 400px;
   width: 100%;
   background: #417062;
   border-radius: 0;
   font-size: 1.4rem;
-  text-align: center;
-  padding: 10px;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+}
+.main .space .review {
+  background-color: rgba(255, 255, 255, 0.815);
+  width: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 40px;
+  margin: 20px;
+  box-shadow: 5px 5px 30px gray;
+}
+.main .space .review img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  align-self: center;
+  margin: 5px;
+  box-shadow: 5px 5px 30px gray;
+}
+.main .space .review p {
+  font-size: 1.2rem;
+  align-self: center;
+  padding: 10px;
+}
+.main .space .cust1 {
+  align-self: flex-end;
+}
+.main .space .cust2 {
+  margin-bottom: 20px;
+  align-self: flex-start;
 }
 .main .cont1 {
   margin-top: 20px;

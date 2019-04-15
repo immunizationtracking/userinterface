@@ -143,14 +143,49 @@ body {
     } // end of cta
 
     .space {
-        height: 200px;
+        height: 400px;
         width: 100%;
         background: @main;
         border-radius: 0;
         font-size: 1.4rem;
-        text-align: center;
-        .padding10();
-        .center();
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        .review {
+            background-color: rgba(255, 255, 255, 0.815);
+            width: 500px;
+            display: flex;
+            justify-content: space-evenly;
+            border-radius: 40px;
+            margin: 20px;
+            .blur();
+            
+            img {
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                align-self: center;
+                margin: 5px;
+                .blur();
+            }
+
+            p {
+                font-size: 1.2rem;
+                align-self: center;
+                .padding10();
+            }
+        } // end of review
+
+        .cust1 {
+            align-self: flex-end;
+        }
+
+        .cust2 {
+            margin-bottom: 20px;
+            align-self: flex-start;
+        }
+
     } // end of space
 
     .cont1 {
