@@ -409,7 +409,7 @@ body {
 }
 .about .main .about-main {
   margin: 20px;
-  background-color: #44586F;
+  background-color: #AA7B62;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -437,7 +437,7 @@ body {
   font-weight: 900;
 }
 .about .cta .about-main .mid-sec {
-  background-color: #44586F;
+  background-color: #AA7B62;
 }
 header {
   background-color: #417062;
