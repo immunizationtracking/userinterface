@@ -158,6 +158,15 @@ body {
 .main .cta .text-wrap .bold {
   font-weight: 900;
 }
+.main .cta .text-wrap img {
+  position: relative;
+  left: 165px;
+}
+@media (min-width: 1000px) {
+  .main .cta .text-wrap img {
+    left: 0;
+  }
+}
 .main .cta .text-wrap h1 {
   font-size: 3rem;
   text-align: center;
@@ -237,7 +246,7 @@ body {
   color: black;
 }
 .main .space {
-  height: 400px;
+  height: 500px;
   width: 100%;
   background: #417062;
   border-radius: 0;
@@ -250,18 +259,38 @@ body {
   background-color: rgba(255, 255, 255, 0.815);
   width: 500px;
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
   border-radius: 40px;
   margin: 20px;
   box-shadow: 5px 5px 30px gray;
 }
+@media (min-width: 1000px) {
+  .main .space .review {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 40px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 30px gray;
+  }
+}
 .main .space .review img {
-  width: 30%;
+  width: 60%;
   height: 150px;
   border-radius: 50%;
   align-self: center;
   margin: 5px;
   box-shadow: 5px 5px 30px gray;
+}
+@media (min-width: 1000px) {
+  .main .space .review img {
+    width: 30%;
+    height: 150px;
+    border-radius: 50%;
+    align-self: center;
+    margin: 5px;
+    box-shadow: 5px 5px 30px gray;
+  }
 }
 .main .space .review p {
   width: 65%;
@@ -269,12 +298,24 @@ body {
   align-self: center;
   padding: 10px;
 }
-.main .space .cust1 {
-  align-self: flex-end;
+@media (min-width: 1000px) {
+  .main .space .review p {
+    width: 65%;
+    font-size: 1.2rem;
+    align-self: center;
+    padding: 10px;
+  }
 }
-.main .space .cust2 {
-  margin-bottom: 20px;
-  align-self: flex-start;
+@media (min-width: 1000px) {
+  .main .space .cust1 {
+    align-self: flex-end;
+  }
+}
+@media (min-width: 1000px) {
+  .main .space .cust2 {
+    margin-bottom: 20px;
+    align-self: flex-start;
+  }
 }
 .main .cont1 {
   margin-top: 20px;

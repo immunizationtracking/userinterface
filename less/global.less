@@ -35,8 +35,18 @@ body {
                 .blur();
 
             }
+
             .bold{
                 font-weight: 900;
+            }
+
+            img {
+                position: relative;
+                left: 165px;
+
+                @media @desktop {
+                    left: 0;
+                }
             }
         
             h1{
@@ -143,7 +153,7 @@ body {
     } // end of cta
 
     .space {
-        height: 400px;
+        height: 500px;
         width: 100%;
         background: @main;
         border-radius: 0;
@@ -156,19 +166,39 @@ body {
             background-color: rgba(255, 255, 255, 0.815);
             width: 500px;
             display: flex;
-            justify-content: space-evenly;
+            flex-direction: column;
+            // justify-content: center;
             border-radius: 40px;
             margin: 20px;
             .blur();
+
+            @media @desktop {
+                width: 500px;
+                display: flex;
+                flex-direction: row;
+                // justify-content: space-evenly;
+                border-radius: 40px;
+                margin-top: 20px;
+                .blur();
+            }
             
             img {
                 // width: 150px;
-                width: 30%;
+                width: 60%;
                 height: 150px;
                 border-radius: 50%;
                 align-self: center;
                 margin: 5px;
                 .blur();
+
+                @media @desktop {
+                    width: 30%;
+                    height: 150px;
+                    border-radius: 50%;
+                    align-self: center;
+                    margin: 5px;
+                    .blur();
+                }
             }
 
             p {
@@ -176,16 +206,30 @@ body {
                 font-size: 1.2rem;
                 align-self: center;
                 .padding10();
+
+                @media @desktop {
+                    width: 65%;
+                    font-size: 1.2rem;
+                    align-self: center;
+                    .padding10();
+                }
             }
         } // end of review
 
         .cust1 {
-            align-self: flex-end;
+           
+            @media @desktop {
+                align-self: flex-end;
+            }
         }
 
         .cust2 {
-            margin-bottom: 20px;
-            align-self: flex-start;
+
+            @media @desktop {
+                margin-bottom: 20px;
+                align-self: flex-start;
+            }
+        
         }
 
     } // end of space
