@@ -279,6 +279,7 @@ body {
 .main .cont1 {
   margin-top: 20px;
   background-color: white;
+  border-radius: 10px;
   box-shadow: 5px 5px 30px gray;
 }
 @media (min-width: 1000px) {
