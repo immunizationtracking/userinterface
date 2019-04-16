@@ -355,6 +355,10 @@ body {
                 .padding10();
                 .blur();
 
+                @media @desktop {
+                    width: 100%;
+                }
+
                 h1 {
                     font-size: 1.6rem;
                     margin-bottom: 10px;
@@ -377,8 +381,29 @@ body {
 
     .cta .about-main {
 
+
+        @media @desktop {
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .text-cont {
+
+            @media @desktop {
+                width: 49.5%;
+                padding: 30px;
+            }
+        }
+
         .mid-sec{
-            background-color: @secondary;
+
+            @media @desktop {
+                width: 49.5%;
+                padding: 30px;
+                height: 550px;
+            }
+
         }
     }
 
