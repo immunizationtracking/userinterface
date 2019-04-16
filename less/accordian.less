@@ -1,0 +1,62 @@
+.about .cta {
+    height: auto;
+
+    .team {
+        margin-top: 20px;
+        border-radius: 10px;
+
+        @media @desktop {
+            margin-top: 0;
+        }
+
+
+        .member {
+            // height: 2rem;
+            width: 420px;
+            border-radius: 10px;
+            background-color: white;
+            .padding10();
+            .blur();
+
+            @media @desktop {
+                width: 100%;
+            }
+
+            .member-top {
+                height: 3rem;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                h3 {
+                    font-size: 1.4rem;
+                }
+
+                h6 {
+                    font-size: 1.1rem;
+                }
+
+                img {
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                }
+            }
+
+            .member-cont {
+                margin-top: 10px;
+                border-top: 1px dashed gray;
+
+                p {
+                    font-size: 1.2rem;
+                    .padding10();
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+.hide {
+    display: none;
+}

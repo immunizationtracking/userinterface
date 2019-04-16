@@ -1,5 +1,14 @@
-# userinterface
-web user interface developer repository
+# UI Developer
+I built this project using the following stack:
+HTML/CSS
+JavaScript
+LESS
+
+In this project, I created a marketing page for an immunization tracking app. 
+
+I started in the nav. I used javascript to show/hide the menu content. 
+
+I also, on the about page, used javascript to show/hide all of the content about the team members and to show the corresponding picture with each person also.
 
 # Web User Interface Developer Role
 
