@@ -436,7 +436,7 @@ body {
 .about .main .about-main .text-cont p em {
   font-weight: 900;
 }
-.about .cta .about-main .team {
+.about .cta .about-main .mid-sec {
   background-color: #44586F;
 }
 header {
@@ -499,11 +499,13 @@ header .menu:hover {
 }
 .about .cta .team {
   margin-top: 20px;
+  border-radius: 10px;
 }
 .about .cta .team .member {
   border-radius: 10px;
   background-color: white;
   padding: 10px;
+  box-shadow: 5px 5px 30px gray;
 }
 .about .cta .team .member .member-top {
   height: 3rem;
