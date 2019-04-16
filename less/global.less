@@ -51,6 +51,11 @@ body {
             img {
                 position: relative;
                 left: 165px;
+                border-radius: 50%;
+                background-color: @fiord;
+                margin: 5px;
+                padding: 5px;
+                .blur();
 
                 @media @tablet {
                     position: inherit;
@@ -417,7 +422,7 @@ body {
 
             @media @tablet {
                 width: 75%;
-                
+
             }
 
             @media @desktop {

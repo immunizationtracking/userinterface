@@ -170,6 +170,11 @@ body {
 .main .cta .text-wrap img {
   position: relative;
   left: 165px;
+  border-radius: 50%;
+  background-color: #44586F;
+  margin: 5px;
+  padding: 5px;
+  box-shadow: 5px 5px 30px gray;
 }
 @media (min-width: 800px) {
   .main .cta .text-wrap img {
