@@ -140,11 +140,20 @@ body {
   border-radius: 10px;
   background-color: white;
   height: 100vh;
+  overflow: scroll;
   box-shadow: 5px 5px 30px gray;
+}
+@media (min-width: 800px) {
+  .main .cta .text-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 @media (min-width: 1000px) {
   .main .cta .text-wrap {
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
     margin-top: 60px;
     background-color: rgba(65, 112, 98, 0.7);
@@ -161,6 +170,12 @@ body {
 .main .cta .text-wrap img {
   position: relative;
   left: 165px;
+}
+@media (min-width: 800px) {
+  .main .cta .text-wrap img {
+    position: inherit;
+    left: 0;
+  }
 }
 @media (min-width: 1000px) {
   .main .cta .text-wrap img {
@@ -182,6 +197,13 @@ body {
   margin-bottom: 20px;
   position: relative;
   left: 5px;
+}
+@media (min-width: 800px) {
+  .main .cta .index {
+    display: flex;
+    flex-direction: row;
+    justify-content: spaced-evenly;
+  }
 }
 @media (min-width: 1000px) {
   .main .cta .head-wrap {
@@ -206,6 +228,11 @@ body {
     width: 100%;
     position: relative;
     top: 40px;
+  }
+}
+@media (min-width: 800px) {
+  .main .cta .head-wrap .p-wrap {
+    margin: 0;
   }
 }
 @media (min-width: 1000px) {
@@ -448,6 +475,11 @@ body {
     align-items: center;
   }
 }
+@media (min-width: 800px) {
+  .about .cta .about-main .text-cont {
+    width: 75%;
+  }
+}
 @media (min-width: 1000px) {
   .about .cta .about-main .text-cont {
     width: 49.5%;
@@ -522,6 +554,11 @@ header .menu:hover {
 .about .cta .team {
   margin-top: 20px;
   border-radius: 10px;
+}
+@media (min-width: 1000px) {
+  .about .cta .team {
+    margin-top: 0;
+  }
 }
 .about .cta .team .member {
   width: 420px;

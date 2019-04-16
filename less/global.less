@@ -19,12 +19,20 @@ body {
         border-radius: 10px;
         background-color: white;
         height: 100vh;
+        overflow: scroll;
         .blur();
 
         .text-wrap {
 
+            @media @tablet {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
             @media @desktop {
                 display: flex;
+                flex-direction: row;
                 justify-content: space-evenly;
                 margin-top: 60px;
                 background-color: rgba(65, 112, 98, 0.7);
@@ -43,6 +51,11 @@ body {
             img {
                 position: relative;
                 left: 165px;
+
+                @media @tablet {
+                    position: inherit;
+                    left: 0
+                }
 
                 @media @desktop {
                     left: 0;
@@ -69,6 +82,15 @@ body {
                 left: 5px;
             }
         } // end of text-wrap
+
+        .index {
+            
+            @media @tablet {
+                display: flex;
+                flex-direction: row;
+                justify-content: spaced-evenly;
+            }
+        }
 
         .head-wrap {
 
@@ -102,6 +124,9 @@ body {
 
             .p-wrap {
                 
+                @media @tablet {
+                    margin: 0;
+                }
 
                 @media @desktop {
                     width: 49.5%;
@@ -389,6 +414,11 @@ body {
         }
 
         .text-cont {
+
+            @media @tablet {
+                width: 75%;
+                
+            }
 
             @media @desktop {
                 width: 49.5%;
