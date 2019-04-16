@@ -48,6 +48,13 @@ body {
                     left: 0;
                 }
             }
+
+            .about {
+
+                @media @desktop {
+                    align-self: center;
+                }
+            }
         
             h1{
                 font-size: 3rem;
@@ -324,3 +331,45 @@ body {
     } // end of cont1
 
 } // end of main
+
+// start of about page
+.about {
+    
+    .main {
+
+        .about-main {
+            margin: 20px;
+            background-color: #44586F;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 10px;
+            .padding10();
+            .blur();
+
+            .text-cont {
+                width: 85%;
+                border-radius: 10px;
+                background-color: white;
+                text-align: center;
+                .padding10();
+                .blur();
+
+                h1 {
+                    font-size: 1.6rem;
+                    margin-bottom: 10px;
+                }
+                
+                p {
+                    font-size: 1.2rem;
+                    line-height: 1.2;
+
+                    em {
+                        font-weight: 900;
+                    }
+                }
+            }
+        }
+    }
+
+} // end of about page styles

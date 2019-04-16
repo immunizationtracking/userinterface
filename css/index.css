@@ -167,6 +167,11 @@ body {
     left: 0;
   }
 }
+@media (min-width: 1000px) {
+  .main .cta .text-wrap .about {
+    align-self: center;
+  }
+}
 .main .cta .text-wrap h1 {
   font-size: 3rem;
   text-align: center;
@@ -401,6 +406,35 @@ body {
     left: 70px;
     top: 20px;
   }
+}
+.about .main .about-main {
+  margin: 20px;
+  background-color: #44586F;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 5px 5px 30px gray;
+}
+.about .main .about-main .text-cont {
+  width: 85%;
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 5px 5px 30px gray;
+}
+.about .main .about-main .text-cont h1 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+.about .main .about-main .text-cont p {
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+.about .main .about-main .text-cont p em {
+  font-weight: 900;
 }
 header {
   background-color: #417062;
