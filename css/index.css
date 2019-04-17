@@ -140,7 +140,6 @@ body {
   border-radius: 10px;
   background-color: white;
   height: 100vh;
-  overflow: scroll;
   box-shadow: 5px 5px 30px gray;
 }
 @media (min-width: 800px) {
@@ -255,11 +254,13 @@ body {
   padding: 10px;
   position: relative;
   top: 30px;
+  line-height: 1.2;
 }
 @media (min-width: 1000px) {
   .main .cta .head-wrap .p-wrap p {
     top: 0;
     padding: 20px;
+    font-size: 1.8rem;
   }
 }
 .main .cta .head-wrap .p-wrap button {
@@ -283,6 +284,7 @@ body {
   color: black;
 }
 .main .space {
+  margin-top: 10px;
   height: 500px;
   width: 100%;
   background: #417062;
@@ -292,6 +294,12 @@ body {
   justify-content: space-evenly;
   align-items: center;
 }
+@media (min-width: 1000px) {
+  .main .space {
+    margin-top: 0;
+    height: 400px;
+  }
+}
 .main .space .review {
   background-color: rgba(255, 255, 255, 0.815);
   width: 500px;
@@ -299,6 +307,7 @@ body {
   flex-direction: column;
   border-radius: 40px;
   margin: 20px;
+  text-align: center;
   box-shadow: 5px 5px 30px gray;
 }
 @media (min-width: 1000px) {
@@ -609,4 +618,8 @@ header .menu:hover {
 footer {
   height: 75px;
   background-color: #417062;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
