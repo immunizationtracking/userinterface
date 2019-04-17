@@ -168,22 +168,24 @@ body {
                     margin-top: 30px;
                     
                     display: none;
+                    color: white;
+
+                    a{
+                        text-decoration: none;
+                        color: inherit;
+                    }
+
+                    &:hover{
+                        background-color: white;
+                        color: @main;
+                    }
 
 
                     @media @desktop {
                         display: block;
                         .blur();
-
-                        &:hover{
-                            // background-color: ;
-                            // color: @main;
-                        }
                     }
 
-                    a{
-                        text-decoration: none;
-                        color: black;
-                    }
                 }
             } // end of p wrap
         
@@ -368,6 +370,16 @@ body {
                 width: 100px;
                 align-self: center;
                 margin-top: 10px;
+                color: white;
+
+                a {
+                    color: inherit;
+                }
+
+                &:hover {
+                    color: @main;
+                    background-color: white;
+                }
             }
 
             img {
