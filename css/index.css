@@ -139,7 +139,6 @@ body {
 .main .cta {
   border-radius: 10px;
   background-color: white;
-  height: 100vh;
   margin: 5px;
   box-shadow: 5px 5px 30px gray;
 }
@@ -252,12 +251,11 @@ body {
   text-align: center;
   margin-top: 10px;
   padding: 10px;
-  position: relative;
-  top: 30px;
   line-height: 1.2;
 }
 @media (min-width: 1000px) {
   .main .cta .head-wrap .p-wrap p {
+    position: relative;
     top: 0;
     padding: 20px;
     font-size: 1.8rem;
@@ -286,6 +284,11 @@ body {
   .main .cta .head-wrap .p-wrap button {
     display: block;
     box-shadow: 5px 5px 30px gray;
+  }
+}
+@media (min-width: 1000px) {
+  .main .cta {
+    height: 100vh;
   }
 }
 .main .space {
@@ -473,7 +476,7 @@ body {
   }
 }
 .about .main .about-main {
-  margin: 20px;
+  margin: 3rem;
   background-color: #AA7B62;
   display: flex;
   flex-direction: column;
@@ -676,6 +679,7 @@ header .menu:hover {
 .about .cta .team {
   margin-top: 20px;
   border-radius: 10px;
+  width: 100%;
 }
 @media (min-width: 1000px) {
   .about .cta .team {
@@ -683,7 +687,6 @@ header .menu:hover {
   }
 }
 .about .cta .team .member {
-  width: 420px;
   border-radius: 10px;
   background-color: white;
   padding: 10px;
