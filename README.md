@@ -1,22 +1,22 @@
 # UI Developer
 
 ## MVP Work:
-    3, I accomplished this task by going above and beyond adding in animations to the webpage
+  #####  3, I accomplished this task by going above and beyond adding in animations to the webpage
 
 ## Team Contribution:
-    2, I accomplished this by matching the themes of my webpage to the theme of the React page. FE did not want help.
+  #####  2, I accomplished this by matching the themes of my webpage to the theme of the React page. FE did not want help.
 
 ## HTML/CSS:
-    3, I accomplished this by using LESS in deep knowledge
+  #####  3, I accomplished this by using LESS in deep knowledge
 
 ## Responsive:
-    2, I accomplished this by making the site responsive to desktop and mobile devices
+  #####  2, I accomplished this by making the site responsive to desktop and mobile devices
 
 ## JS Fundamentals:
-    3, I accomplished this by using a method inside of my accordion class constructor
+  #####  3, I accomplished this by using a method inside of my accordion class constructor
 
 ## Applied JS:
-    3, I accomplished this by making a reusable accordion in the about page of my website that takes in an image, title, name, and      bio. With all components, the accordion successfully hides and shows the appropriate content at the appropriate time.
+  #####  3, I accomplished this by making a reusable accordion in the about page of my website that takes in an image, title, name, and      bio. With all components, the accordion successfully hides and shows the appropriate content at the appropriate time.
 
 # Web User Interface Developer Role
 
