@@ -19,7 +19,6 @@ body {
         border-radius: 10px;
         background-color: white;
         height: 100vh;
-        overflow: scroll;
         .blur();
 
         .text-wrap {
@@ -148,10 +147,12 @@ body {
                     .padding10();
                     position: relative;
                     top: 30px;
+                    line-height: 1.2;
 
                     @media @desktop {
                         top: 0;
                         padding: 20px;
+                        font-size: 1.8rem;
                     }
                     
                 }
@@ -190,6 +191,7 @@ body {
     } // end of cta
 
     .space {
+        margin-top: 10px;
         height: 500px;
         width: 100%;
         background: @main;
@@ -199,6 +201,11 @@ body {
         justify-content: space-evenly;
         align-items: center;
 
+        @media @desktop {
+            margin-top: 0;
+            height: 400px;
+        }
+
         .review {
             background-color: rgba(255, 255, 255, 0.815);
             width: 500px;
@@ -207,6 +214,7 @@ body {
             // justify-content: center;
             border-radius: 40px;
             margin: 20px;
+            text-align: center;
             .blur();
 
             @media @desktop {
