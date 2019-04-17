@@ -515,7 +515,7 @@ body {
 }
 @media (min-width: 500px) {
   .about .cta .about-main .text-cont {
-    width: 75%;
+    width: 80%;
   }
 }
 @media (min-width: 1000px) {
