@@ -1,14 +1,22 @@
 # UI Developer
-I built this project using the following stack:
-HTML/CSS
-JavaScript
-LESS
 
-In this project, I created a marketing page for an immunization tracking app. 
+##MVP Work:
+    3, I accomplished this task by going above and beyond adding in animations to the webpage
 
-I started in the nav. I used javascript to show/hide the menu content. 
+##Team Contribution:
+    2, I accomplished this by matching the themes of my webpage to the theme of the React page. FE did not want help.
 
-I also, on the about page, used javascript to show/hide all of the content about the team members and to show the corresponding picture with each person also.
+##HTML/CSS:
+    3, I accomplished this by using LESS in deep knowledge
+
+##Responsive:
+    2, I accomplished this by making the site responsive to desktop and mobile devices
+
+##JS Fundamentals:
+    3, I accomplished this by using a method inside of my accordion class constructor
+
+##Applied JS:
+    3, I accomplished this by making a reusable accordion in the about page of my website that takes in an image, title, name, and      bio. With all components, the accordion successfully hides and shows the appropriate content at the appropriate time.
 
 # Web User Interface Developer Role
 
