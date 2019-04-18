@@ -18,17 +18,17 @@
 ## Applied JS:
   ####  3, I accomplished this by making a reusable accordion in the about page of my website that takes in an image, title, name, and      bio. With all components, the accordion successfully hides and shows the appropriate content at the appropriate time.
 
-  ## OVERALL
+## OVERALL
 
   ### Home Page
 
-  #### I believe I did well on this project. I created a nav button that drops down and added an animation to it(although it may be a tad too long, design that i've gone back and forth with). I then added a buttong to the top of the page tha tis only viewable in mobile and tablet. once in desktop, the button appears below the main text(also the anchor tag for the react app).
+    #### I believe I did well on this project. I created a nav button that drops down and added an animation to it(although it may be a tad too long, design that i've gone back and forth with). I then added a buttong to the top of the page tha tis only viewable in mobile and tablet. once in desktop, the button appears below the main text(also the anchor tag for the react app).
 
-  #### I added reviews into the page, and also tussled with which animation to use on those as well. 
+    #### I added reviews into the page, and also tussled with which animation to use on those as well. 
 
   ### About Page
 
-  #### Same as the home page, the nav is animated as well. I added in here an accordion that opens and closes displaying photos of each team member, thier role in the project, a bio about thier part in the project, and a link to thier github account.
+    #### Same as the home page, the nav is animated as well. I added in here an accordion that opens and closes displaying photos of each team member, thier role in the project, a bio about thier part in the project, and a link to thier github account.
 
 # Web User Interface Developer Role
 
