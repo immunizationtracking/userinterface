@@ -129,7 +129,7 @@ table {
 body {
   font-size: 62.5%;
   box-sizing: border-box;
-  background-color: #417062;
+  background-color: #64E0D0;
 }
 .main {
   display: flex;
@@ -279,7 +279,7 @@ body {
   }
 }
 .main .cta .head-wrap .p-wrap button {
-  background-color: #417062;
+  background-color: #64E0D0;
   font-size: 1.4rem;
   height: 50px;
   border-radius: 17px;
@@ -297,7 +297,7 @@ body {
 }
 .main .cta .head-wrap .p-wrap button:hover {
   background-color: white;
-  color: #417062;
+  color: #64E0D0;
 }
 @media (min-width: 1000px) {
   .main .cta .head-wrap .p-wrap button {
@@ -312,7 +312,7 @@ body {
 }
 .main .space {
   width: 100%;
-  background: #417062;
+  background: #64E0D0;
   border-radius: 0;
   font-size: 1.4rem;
   display: flex;
@@ -469,7 +469,7 @@ body {
   }
 }
 .main .cont1 .text-wrap .join {
-  background-color: #417062;
+  background-color: #64E0D0;
   font-size: 1.4rem;
   height: 50px;
   border-radius: 17px;
@@ -483,7 +483,7 @@ body {
   font-family: 'Lato', sans-serif;
 }
 .main .cont1 .text-wrap .join:hover {
-  color: #417062;
+  color: #64E0D0;
   background-color: white;
 }
 .main .cont1 .text-wrap img {
@@ -605,7 +605,7 @@ body {
   }
 }
 header {
-  background-color: #417062;
+  background-color: #64E0D0;
   display: flex;
   justify-content: space-between;
   height: 75px;
@@ -805,7 +805,7 @@ header .menu:hover {
 }
 footer {
   height: 75px;
-  background-color: #417062;
+  background-color: #64E0D0;
   font-size: 1.2rem;
   display: flex;
   justify-content: center;
