@@ -1,5 +1,7 @@
 # UI Developer
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1ecc0f8d-e073-4684-b65b-ab8260557741/deploy-status)](https://app.netlify.com/sites/tender-varahamihira-47e86d/deploys)
+
 ## MVP Work:
   ####  3, I accomplished this task by going above and beyond adding in animations to the webpage
 
