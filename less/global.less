@@ -30,19 +30,19 @@ body {
                 align-items: center;
             }
 
-            @media @desktop {
-                display: flex;
-                flex-direction: row;
-                justify-content: space-evenly;
-                margin-top: 60px;
-                background-color: rgba(65, 112, 98, 0.7);
-                width: 79%;
-                border-radius: 10px;
-                position: relative;
-                left: 150px;
-                .blur();
+            // @media @desktop {
+            //     display: flex;
+            //     flex-direction: row;
+            //     justify-content: space-evenly;
+            //     margin-top: 60px;
+            //     background-color: rgba(65, 112, 98, 0.7);
+            //     width: 79%;
+            //     border-radius: 10px;
+            //     position: relative;
+            //     left: 150px;
+            //     .blur();
 
-            }
+            // }
 
             .bold {
                 font-weight: 900;
@@ -91,8 +91,22 @@ body {
             
             @media @tablet {
                 display: flex;
+                flex-direction: column;
+                // justify-content: spaced-evenly;
+            }
+
+            @media @desktop {
+                display: flex;
                 flex-direction: row;
-                justify-content: spaced-evenly;
+                justify-content: space-evenly;
+                margin-top: 60px;
+                background-color: rgba(65, 112, 98, 0.7);
+                width: 79%;
+                border-radius: 10px;
+                position: relative;
+                left: 150px;
+                .blur();
+
             }
         }
 
@@ -222,6 +236,10 @@ body {
             text-align: center;
             .blur();
 
+            @media @tablet {
+
+            }
+
             @media @desktop {
                 width: 500px;
                 display: flex;
@@ -240,6 +258,10 @@ body {
                 align-self: center;
                 margin: 5px;
                 .blur();
+
+                @media @tablet {
+                    height: 250px;
+                }
 
                 @media @desktop {
                     width: 30%;
