@@ -197,6 +197,7 @@ body {
   margin-top: 15px;
   align-self: center;
   padding: 10px;
+  font-family: 'Oswald', sans-serif;
 }
 .main .cta .text-wrap .marge {
   margin-bottom: 20px;
@@ -267,6 +268,7 @@ body {
   margin-top: 10px;
   padding: 10px;
   line-height: 1.2;
+  font-family: 'Lato', sans-serif;
 }
 @media (min-width: 1000px) {
   .main .cta .head-wrap .p-wrap p {
@@ -284,12 +286,14 @@ body {
   width: 100px;
   align-self: center;
   margin-top: 30px;
+  font-family: 'Lato', sans-serif;
   display: none;
   color: white;
 }
 .main .cta .head-wrap .p-wrap button a {
   text-decoration: none;
   color: inherit;
+  font-family: 'Lato', sans-serif;
 }
 .main .cta .head-wrap .p-wrap button:hover {
   background-color: white;
@@ -328,6 +332,7 @@ body {
   border-radius: 40px;
   margin: 20px;
   text-align: center;
+  font-family: 'Lato', sans-serif;
   box-shadow: 5px 5px 30px gray;
 }
 @media (min-width: 1000px) {
@@ -437,6 +442,7 @@ body {
   text-align: center;
   margin-bottom: 10px;
   margin-top: 10px;
+  font-family: 'Oswald', sans-serif;
   padding: 10px;
 }
 @media (min-width: 1000px) {
@@ -451,6 +457,7 @@ body {
   font-size: 1.3rem;
   text-align: center;
   line-height: 1.2;
+  font-family: 'Lato', sans-serif;
   padding: 10px;
 }
 @media (min-width: 1000px) {
@@ -473,6 +480,7 @@ body {
 }
 .main .cont1 .text-wrap .join a {
   color: inherit;
+  font-family: 'Lato', sans-serif;
 }
 .main .cont1 .text-wrap .join:hover {
   color: #417062;
@@ -531,6 +539,12 @@ body {
     justify-content: space-evenly;
     align-items: center;
   }
+}
+.about .cta .about-main .text-cont h1 {
+  font-family: 'Oswald', sans-serif;
+}
+.about .cta .about-main .text-cont p {
+  font-family: 'Lato', sans-serif;
 }
 @media (min-width: 500px) {
   .about .cta .about-main .text-cont {
@@ -612,6 +626,7 @@ header button:hover {
 header button a {
   text-decoration: none;
   color: inherit;
+  font-family: 'Lato', sans-serif;
 }
 @media (min-width: 1000px) {
   header button {
@@ -622,11 +637,13 @@ header h1 {
   font-size: 1.6rem;
   padding: 25px;
   margin-top: 10px;
+  font-family: 'Oswald', sans-serif;
 }
 header .menu {
   color: black;
   height: 50px;
   margin-top: 10px;
+  font-family: 'Lato', sans-serif;
   padding: 10px;
 }
 header .menu:hover {
@@ -647,6 +664,7 @@ header .menu:hover {
   font-size: 1.4rem;
   padding: 10px;
   color: black;
+  font-family: 'Lato', sans-serif;
 }
 .menu-content .wrap a:hover {
   color: white;
@@ -720,9 +738,11 @@ header .menu:hover {
 }
 .about .cta .team .member .member-top h3 {
   font-size: 1.4rem;
+  font-family: 'Oswald', sans-serif;
 }
 .about .cta .team .member .member-top h6 {
   font-size: 1.1rem;
+  font-family: 'Lato', sans-serif;
 }
 .about .cta .team .member .member-top img {
   width: 50px;
@@ -737,6 +757,8 @@ header .menu:hover {
   font-size: 1.2rem;
   padding: 10px;
   text-align: center;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.2;
 }
 .about .cta .team .member .member-cont .social {
   display: flex;
