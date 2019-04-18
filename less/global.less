@@ -18,39 +18,40 @@ body {
     .cta {
         border-radius: 10px;
         background-color: white;
-        // height: 100vh;
         margin: 5px;
         .blur();
 
         .text-wrap {
+            display: flex;
+            flex-direction: column;
+
 
             @media @tablet {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
+                flex-direction: row;
+                justify-content: center;
             }
 
-            // @media @desktop {
-            //     display: flex;
-            //     flex-direction: row;
-            //     justify-content: space-evenly;
-            //     margin-top: 60px;
-            //     background-color: rgba(65, 112, 98, 0.7);
-            //     width: 79%;
-            //     border-radius: 10px;
-            //     position: relative;
-            //     left: 150px;
-            //     .blur();
+            @media @desktop {
+                flex-direction: row;
+                justify-content: space-evenly;
+                margin-top: 60px;
+                background-color: rgba(65, 112, 98, 0.7);
+                width: 79%;
+                border-radius: 10px;
+                position: relative;
+                left: 150px;
+                .blur();
 
-            // }
+            }
 
             .bold {
                 font-weight: 900;
             }
 
             img {
-                position: relative;
-                left: 140px;
+                // position: relative;
+                // left: 140px;
+                align-self: center;
                 border-radius: 50%;
                 background-color: @fiord;
                 margin: 5px;
@@ -75,9 +76,10 @@ body {
         
             h1 {
                 font-size: 3rem;
-                text-align: center;
                 margin-bottom: 5px;
                 margin-top: 15px;
+                align-self: center;
+                .padding10();
             }
         
             .marge {
@@ -210,8 +212,6 @@ body {
     } // end of cta
 
     .space {
-        margin-top: 10px;
-        height: 500px;
         width: 100%;
         background: @main;
         border-radius: 0;
@@ -227,10 +227,8 @@ body {
 
         .review {
             background-color: rgba(255, 255, 255, 0.815);
-            width: 500px;
             display: flex;
             flex-direction: column;
-            // justify-content: center;
             border-radius: 40px;
             margin: 20px;
             text-align: center;
@@ -244,14 +242,12 @@ body {
                 width: 500px;
                 display: flex;
                 flex-direction: row;
-                // justify-content: space-evenly;
                 border-radius: 40px;
                 margin-top: 20px;
                 .blur();
             }
             
             img {
-                // width: 150px;
                 width: 60%;
                 height: 150px;
                 border-radius: 50%;
@@ -274,10 +270,9 @@ body {
             }
 
             p {
-                width: 65%;
                 font-size: 1.2rem;
                 align-self: center;
-                .padding10();
+                padding: 15px;
 
                 @media @desktop {
                     width: 65%;
